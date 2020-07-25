@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".activities.StudentProfileActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uploadImageStudentProfileImageView"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/upload_image"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <Button
+                android:id="@+id/uploadImageStudentProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:layout_marginEnd="142dp"
+                android:layout_marginRight="142dp"
+                android:layout_marginBottom="28dp"
+                android:background="@color/update"
+                android:text="@string/upload_image"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/nameStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/regStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/reg_no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instituteStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/institute"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/cityStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/city"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/stateStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/state"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/countryStudentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/country"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/studentProfileUpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/update"
+                android:onClick="updateStudentProfile"
+                android:text="@string/btn_update"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

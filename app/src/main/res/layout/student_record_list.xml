@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:courseTeacherMainCardView="http://schemas.android.com/tools"
+    xmlns:course="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        courseTeacherMainCardView:cardCornerRadius="@dimen/card_album_radius"
+        android:elevation="3dp"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_gravity="center"
+        android:id="@+id/courseStudentMainCardView">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_height="64dp"
+                android:layout_width="match_parent"
+                android:id="@+id/studentCourseName"
+                android:textColor="#111110"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingStart="30dp"
+                android:gravity="center_vertical"
+                android:background="#C6E89F"/>
+
+            <TextView
+                android:layout_height="64dp"
+                android:layout_width="match_parent"
+                android:id="@+id/attendanceStudentTextView"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingStart="30dp"
+                android:gravity="center_vertical"
+                android:background="#DCF3C1"/>
+
+            <TextView
+                android:id="@+id/marksStudentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="#DCF3C1"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:paddingLeft="30dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

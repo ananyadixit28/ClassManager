@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67660275551",
+    "firebase_url": "https://class-manager-53e14.firebaseio.com",
+    "project_id": "class-manager-53e14",
+    "storage_bucket": "class-manager-53e14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67660275551:android:e2b615ad3d7cc45264e0ea",
+        "android_client_info": {
+          "package_name": "com.android.wefour.classmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67660275551-i73kf58al7ab28kfqhn496fl6cl3qjl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.wefour.classmanager",
+            "certificate_hash": "044267356fd3e53ba0fb4963b368d8abff093d50"
+          }
+        },
+        {
+          "client_id": "67660275551-k40f8kboluvcicir6n9ikkm8h0qqb9en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIcgDTQJced9yCdTElOzLgJJ_8URRW20c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67660275551-k40f8kboluvcicir6n9ikkm8h0qqb9en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AllotMarksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/cousreTitleMarksLayout">
+
+        <TextView
+            android:id="@+id/cousreTitleMarksTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/headingAllotMarksLayout"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@id/cousreTitleMarksLayout">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:text="@string/name"
+            android:textColor="@color/bg_register"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="2"
+            android:fontFamily="monospace"
+            android:text="Current Marks"
+            android:textColor="@color/bg_register"
+            android:textSize="16sp"
+            tools:text="Current Marks" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="2"
+            android:fontFamily="monospace"
+            android:text="@string/allot_marks"
+            android:textColor="@color/bg_register"
+            android:textSize="16sp"
+            tools:text="@string/allot_marks" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@id/headingAllotMarksLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/allotMarksRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40" />
+
+        <Button
+            android:id="@+id/allotMarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginRight="162dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:onClick="allotMarksClicked"
+            android:text="@string/allot_marks" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

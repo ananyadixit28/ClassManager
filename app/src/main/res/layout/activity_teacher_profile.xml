@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout tools:context=".activities.TeacherProfileActivity"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uploadImageTeacherProfileImageView"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/upload_image"
+                app:layout_constraintBottom_toTopOf="@+id/uploadImageTeacherProfileButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <Button
+                android:id="@+id/uploadImageTeacherProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="142dp"
+                android:layout_marginRight="142dp"
+                android:layout_marginBottom="28dp"
+                android:background="@color/update"
+                android:shadowColor="#FFFFFF"
+                android:text="@string/upload_image"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uploadImageTeacherProfileImageView" />
+
+            <EditText
+                android:id="@+id/nameTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/regTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/reg_no"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instituteTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/institute"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/cityTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/city"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/stateTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/state"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/countryTeacherEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="@string/country"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/teacherProfileUpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/update"
+                android:onClick="updateTeacherProfile"
+                android:text="@string/btn_update"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

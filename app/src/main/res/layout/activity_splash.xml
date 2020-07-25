@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#166DD8"
+    tools:context=".activities.SplashActivity">
+
+    <TextView
+        android:id="@+id/splastTitleTextView"
+        android:layout_width="405dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="139dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/classes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FBFBFB"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/splashNameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/splashNameTextView"
+        android:layout_width="413dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/manager"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F0F1F4"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/splashActivityImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splastTitleTextView" />
+
+    <ImageView
+        android:id="@+id/splashActivityImageView"
+        android:layout_width="186dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splashNameTextView"
+        app:srcCompat="@drawable/images" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
