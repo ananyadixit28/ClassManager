@@ -6,11 +6,18 @@ Students can join the class through a unique "key" which is generated for each o
 Teachers can take attendance , allot marks and even chat with the students through a group chat created for different courses.
 Group members also have the facility of sending images in the chats section.
 
-![chat screenshot](https://i.imgur.com/rOtQUqml.jpg)
-![register](https://i.imgur.com/ACAJ7tRl.jpg)
-![join](https://i.imgur.com/GARFKAxl.jpg)
-![attendance](https://i.imgur.com/dp3X7Aul.jpg)
-![main](https://i.imgur.com/VO85YY3l.jpg)
-![create](https://i.imgur.com/dQQSvqRl.jpg)
-![Image Fragment](https://i.imgur.com/qTVmGBjl.jpg)
-![Menu](https://i.imgur.com/hKoCGdFl.jpg)
+<img src="https://imgur.com/6XoEL4k.jpg" width="300">
+<img src="https://imgur.com/8YD8Hkt.jpg" width="300">
+<img src="https://imgur.com/QTMZcs0.jpg" width="300">
+<img src="https://imgur.com/AEsGefN.jpg" width="300">
+<img src="https://imgur.com/fv5QDxi.jpg" width="300">
+<img src="https://imgur.com/mrVDXgv.jpg" width="300">
+<img src="https://imgur.com/B64XnoS.jpg" width="300">
+<img src="https://imgur.com/NIwnRGn.jpg" width="300">
+<img src="https://imgur.com/jZQHTwl.jpg" width="300">
+<img src="https://imgur.com/WNBe82i.jpg" width="300">
+<img src="https://imgur.com/otLUlOQ.jpg" width="300">
+<img src="https://imgur.com/LqF2RlY.jpg" width="300">
+<img src="https://imgur.com/mbaag5c.jpg" width="300">
+<img src="https://imgur.com/GRgaY9c.jpg" width="300">
+<img src="https://imgur.com/dqBEPRm.jpg" width="300">
